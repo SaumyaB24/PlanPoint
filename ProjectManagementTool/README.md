@@ -1,70 +1,66 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PlanPoint - Project Management Web App
 
-## Available Scripts
+## Local Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone <repository-link>
 
-In the project directory, you can run:
+2. Navigate to the project directory:
 
-### `npm start`
+   ```bash
+   cd PlanPoint
+   ```
+3. Install dependencies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   ```bash
+   npm install
+   ```
+4. Start the development server:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```bash
+   npm start
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Architecture Diagram
 
-### `npm run build`
+```
+[Frontend - React + Syncfusion] <---> [Backend - Node.js + Express (planned)]  
+                  |  
+           [Future Pub/Sub with Kafka]  
+                  |  
+           [AI Integration with OpenAI API]  
+                  |  
+             [Deployment on Vercel]
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*Note: Backend is planned and will handle APIs and business logic, with pub/sub architecture via Kafka to improve scalability and real-time features.*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Summary of Technologies and AI Tools Used
 
-### `npm run eject`
+* **Frontend:** React.js, Syncfusion component library for UI, charts, Kanban boards, and calendar integrations.
+* **Backend (Planned):** Node.js with Express framework to serve REST APIs.
+* **AI Tools (Future):** Integration with OpenAI API for intelligent task automation, suggestions, and insights.
+* **Architecture (Future):** Pub/Sub model using Kafka for efficient asynchronous messaging and event-driven workflows.
+* **Deployment:** Frontend currently deployed on Vercel.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Known Limitations and Assumptions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Currently, only the frontend portion is implemented, focusing on user interface and interaction using React and Syncfusion.
+* Backend API and real-time features are under development.
+* AI capabilities and Kafka-based pub/sub architecture are planned enhancements, reflecting scalable and intelligent future expansions.
+* Assumes users have Node.js and npm installed for local development.
+* Deployment is configured for frontend; backend deployment and integration will follow in subsequent updates.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+*This README reflects my understanding of modern web development, event-driven architectures, and AI integration strategies to build scalable and intelligent project management solutions.*
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
