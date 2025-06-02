@@ -4,7 +4,7 @@
 ## Local Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone <repository-link>
+   git clone https://github.com/SaumyaB24/Xeno-Assignment.git
 
 2. Navigate to the project directory:
 
