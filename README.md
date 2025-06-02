@@ -19,9 +19,8 @@
 - **Other:** React Router, Context API, Toast notifications
 
 ## 📂 Links
-
-- 🔗 **Live Website:** [PlanPoint Web App](#)
-- 💻 **GitHub Repository:** [View Code](#)
+- 🔗 **Live Website:** [PlanPoint Web App](https://aspire-nex-omega.vercel.app/)
+- 💻 **GitHub Repository:** [View Code](https://github.com/SaumyaB24/Xeno-Assignment/tree/main/PlanPoint)
 - 📽️ **Demo Video:** [Watch Here](#)
 
 ---
