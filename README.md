@@ -21,7 +21,7 @@
 ## 📂 Links
 - 🔗 **Live Website:** [PlanPoint Web App](https://aspire-nex-omega.vercel.app/)
 - 💻 **GitHub Repository:** [View Code](https://github.com/SaumyaB24/Xeno-Assignment/tree/main/PlanPoint)
-- 📽️ **Demo Video:** [Watch Here](#)
+- 📽️ **Demo Video:** [Watch Here](https://drive.google.com/file/d/1skBz_PK1RyPkt0LootHmaaNhIA0MYuw1/view?usp=sharing)
 
 ---
 
