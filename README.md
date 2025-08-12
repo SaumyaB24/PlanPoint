@@ -1,6 +1,6 @@
-# 🧠 PlanPoint – Xeno SDE Internship Assignment 2025
+# 🧠 PlanPoint
 
-**PlanPoint** is a mini CRM platform built as part of the Xeno SDE Internship Assignment. It enables user and order management along with smart campaign planning through an intuitive UI.
+**PlanPoint** is a mini CRM platform. It enables user and order management along with smart campaign planning through an intuitive UI.
 
 ## 🚀 Features
 
